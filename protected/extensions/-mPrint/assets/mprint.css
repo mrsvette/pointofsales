@@ -1,0 +1,58 @@
+/*.grid-view
+{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%
+}
+
+.grid-view th,.grid-view td
+{
+    border:1px solid #ddd;
+    padding: 0.3em 0.6em;
+    vertical-align: top;
+}
+
+.grid-view th
+{
+    text-align: right;
+    font-size: .8em;
+}*/
+
+.grid-view table.items
+{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #212121;
+	margin-bottom:0px;
+}
+
+.grid-view table.items th, .grid-view table.items td
+{
+	font-size: 0.9em;
+	border: 1px solid #212121;
+	padding: 0.3em;
+}
+
+.grid-view table.items th
+{
+	color: white;
+	text-align: center;
+}
+
+.grid-view table.items th a
+{
+	color: #EEE;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.grid-view table.items tr.even
+{
+	background: #F8F8F8;
+}
+
+.grid-view table.items tr.odd
+{
+	background: #E5F1F4;
+}

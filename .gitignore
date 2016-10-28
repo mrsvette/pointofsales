@@ -7,3 +7,4 @@ protected/config/main.php
 *.zip
 *.sql
 *.sql.gz
+.idea/*

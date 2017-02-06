@@ -157,7 +157,8 @@ class Invoice extends CActiveRecord
 		else
 			$model=self::model()->findByPk($id);
 		
-		$nr=str_repeat('0',4-strlen($model->nr));
+		if(strlen($model->nr)<4)
+			$nr=str_repeat('0',4-strlen($model->nr));
 		return $model->serie.$nr.$model->nr;
 	}
 
